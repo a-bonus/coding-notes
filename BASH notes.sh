@@ -36,3 +36,7 @@ cd documents: Changes the current directory to a subdirectory named documents th
 cd ..: Moves one directory level up (to the parent directory).
 cd ~: Changes the current directory to the home directory of the current user.
 cd -: Changes the current directory to the previous working directory.
+
+# touch 
+'touch' creates a new file in the current directory 
+
