@@ -70,4 +70,8 @@ to find 'yourusername', run  'whoami' in terminal
 
 #$1 $2 are positional parameters or positional arguments 
 
+# $() is command substitution 
+name = $(whoami) will assign the whoami command to the name variable 
 
+# $RANDOM
+# randomly generates from 0-32767
