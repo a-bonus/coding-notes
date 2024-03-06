@@ -75,3 +75,10 @@ name = $(whoami) will assign the whoami command to the name variable
 
 # $RANDOM
 # randomly generates from 0-32767
+
+# $SHELL, $USER, $PWD, (PWD means print working directory), $HOSTNAME is name of the machine
+
+#.bashrc is script to run at startupts '.' makes the script hidden 
+
+
+
