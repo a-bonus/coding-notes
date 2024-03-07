@@ -78,7 +78,13 @@ name = $(whoami) will assign the whoami command to the name variable
 
 # $SHELL, $USER, $PWD, (PWD means print working directory), $HOSTNAME is name of the machine
 
-#.bashrc is script to run at startupts '.' makes the script hidden 
+#.bashrc is script to run at startupts '.' maeans the script hidden 
+
+#'export' will make a variable executable in the "child" development environment, aka in a script
+
+# math expression in bash is $(( x + x))
+
+# % is modulo, which divides a number and spits out the remainder
 
 
 
