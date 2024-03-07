@@ -96,10 +96,16 @@ else
         echo "Leave right now!!!"
 fi
 
-# or, for exampled || takes the if statement and adds an 'or' to it.
+# or, for exampled || takes the if statement and adds an 'or' to it. 
 if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
         echo "Beast VANQUISHED!! Congrats fellow tarnished"
 else
         echo "You Died"
 fi
 
+# AND && 
+if [[ this == this && that = that]];
+    echo "does something"
+else
+    echo "does something else"
+fi 
