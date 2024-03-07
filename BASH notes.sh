@@ -84,6 +84,8 @@ name = $(whoami) will assign the whoami command to the name variable
 
 # math expression in bash is $(( x + x))
 
+# $double parantheses starts a mathematical expression
+
 # % is modulo, which divides a number and spits out the remainder
 
 # if else statement in bash, space after if before double bracket, semi colon
@@ -94,4 +96,10 @@ else
         echo "Leave right now!!!"
 fi
 
+# or, for exampled || takes the if statement and adds an 'or' to it.
+if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
+        echo "Beast VANQUISHED!! Congrats fellow tarnished"
+else
+        echo "You Died"
+fi
 
