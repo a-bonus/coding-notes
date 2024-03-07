@@ -86,5 +86,12 @@ name = $(whoami) will assign the whoami command to the name variable
 
 # % is modulo, which divides a number and spits out the remainder
 
+# if else statement in bash, space after if before double bracket, semi colon
+# else, then close the if statement with fi 
+if [[ $coffee == "y" ]]; then
+        echo "You're awesome"
+else
+        echo "Leave right now!!!"
+fi
 
 
