@@ -112,5 +112,12 @@ fi
 
 
 
-#50 MAC OS TIPS
+# MAC OS TIPS
 #1 'say' will have speaker say out loud 
+#2 'mv' + location' will move a file to the location
+#3 'mv' + location' will copy a file to the location 
+#4 'ping' to check if a website is up 
+#5 'ifconfig en0 | grep inet 
+#6 'traceroute' will trace the route to get to a website 
+#7 'dig + website name' to dig into the details of a dns 
+#8 'open + path' will open the path folder 
