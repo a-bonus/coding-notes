@@ -109,3 +109,8 @@ if [[ this == this && that = that]];
 else
     echo "does something else"
 fi 
+
+
+
+#50 MAC OS TIPS
+#1 'say' will have speaker say out loud 
