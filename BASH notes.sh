@@ -121,3 +121,11 @@ fi
 #6 'traceroute' will trace the route to get to a website 
 #7 'dig + website name' to dig into the details of a dns 
 #8 'open + path' will open the path folder 
+#9 'cd ..' moves to the parent directory 
+#10 'touch' will create a new file 
+#11 'mkdir' will make a directory       
+
+
+#Codecademy Notes
+
+# Directories are aka folders in the filesystem
