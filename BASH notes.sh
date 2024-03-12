@@ -135,3 +135,19 @@ fi
 
 #'cat + filename' will print out the contents of the file 
 #'cp + file name or directory name' will copy that file to another directory or save it as a different file 
+#'*' using star is like a wildcard 'cp * my_directory/''
+#'mv' command moves files 
+#'rm' removes files and 'rm -r' to remove directories 
+#'sort' will sort the output alphabetically 
+
+# sort lakes.txt > sorted-lakes.txt
+# $ cat sorted-lakes.txt
+# This above will sort lakes.txt and save it into sorted-lakes.txt, and cat will print it out
+
+#grep
+#global regular expression print 
+#'grep -R + directory' 
+#'grep -Rl' outputs only matched results 
+
+#sed
+#sed is like a find and replace command 
