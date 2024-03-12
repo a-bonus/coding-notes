@@ -123,9 +123,15 @@ fi
 #8 'open + path' will open the path folder 
 #9 'cd ..' moves to the parent directory 
 #10 'touch' will create a new file 
-#11 'mkdir' will make a directory       
+#11 'mkdir' will make a directory aka a folder      
 
 
 #Codecademy Notes
 
-# Directories are aka folders in the filesystem
+# Directories are aka folders in the filesystem, with the root directory being the base of the tree essentially. 
+# '-a' - lists all contents, including hidden files and directories
+# '-l' - (a lowercase “L”) lists all contents of a directory in long format, as well as the file permissions
+# '-t' - orders files and directories by the time they were last modified.
+
+#'cat + filename' will print out the contents of the file 
+#'cp + file name or directory name' will copy that file to another directory or save it as a different file 
