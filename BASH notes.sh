@@ -151,3 +151,28 @@ fi
 
 #sed
 #sed is like a find and replace command 
+
+#IT notes
+#client-server model
+#404 not found
+#IMAP, POP, SMPT, are email protocols 
+#DNS port:53
+#HTTP port:80
+#IMAP TCP 143
+#POP3 port:110
+#SMTP port:25/587
+
+#SSH access a remote terminal, example, accessing github through terminal
+#FTP file transfer protocol 
+#SMB allows multiple users to interact with a system 
+#IP address are 4 sets of numbers separated by a . 0-255
+
+#Troubleshooting Method
+#1. Identify issue
+#2. Research the problem
+#3. Establish theory of probable cause
+#4. Test
+#5. Establish plan of actin
+#6. Implement
+#7. Verify functionality
+#8. Document findings
