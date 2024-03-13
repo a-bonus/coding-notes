@@ -176,3 +176,29 @@ fi
 #6. Implement
 #7. Verify functionality
 #8. Document findings
+
+
+#Conditionals Syntax 
+if [ $index -lt 5 ]
+then
+  echo $index
+else
+  echo 5
+fi
+
+#'-lt' is less than 
+# Interpretation of code above is if $index is less than 5 them print the variable
+#       If not then '5' gets printed on the screen
+
+#List of comparison operators for numbers within bash scripts
+#       '-eq': equal
+#       '-ne': not equal
+#       '-le': less than or equal
+#       '-lt': less than
+#       '-ge': greater than or equal
+#       '-gt': greater than
+#       '-z': is null
+#       '!=' not equal 
+
+# When comparing strings, put variables into quotes 
+#       if [ "$foo" == "$bar" ]
