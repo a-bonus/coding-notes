@@ -202,3 +202,7 @@ fi
 
 # When comparing strings, put variables into quotes 
 #       if [ "$foo" == "$bar" ] 
+
+# Print working directory and copy to clipboard
+pwd | tee >(pbcopy)
+
