@@ -206,3 +206,23 @@ fi
 # Print working directory and copy to clipboard
 pwd | tee >(pbcopy)
 
+ls: Lists directory contents. Using it with options like -l for long listing, -a to show hidden files, and -h for human-readable sizes is very useful.
+cd: Changes the current directory. Essential for navigation in the filesystem.
+pwd: Displays the present working directory's path, which is crucial for understanding where you are in the filesystem.
+grep: Searches for patterns within files. It's incredibly versatile for filtering output or finding specific lines in files.
+find: Searches for files in a directory hierarchy. You can specify various criteria like name, size, modification date, etc.
+cat: Concatenates and displays files. Useful for viewing the contents of files quickly.
+tail and head: Display the beginning (head) or the end (tail) of files. Commonly used with the -f option with tail to follow the output of files (like logs).
+mv, cp, rm: Basic file operations: move (mv), copy (cp), and remove/delete (rm). Essential for file management.
+chmod and chown: Change file mode bits (chmod) and change file owner and group (chown). Critical for managing file permissions and ownership.
+echo: Displays a line of text. Useful for printing in scripts and for setting or demonstrating variable values.
+which and type: Check the location of executables (which) or the type of command (type), whether it's an alias, function, keyword, or file.
+man and --help: Display the manual page (man) for commands or get command usage with --help. Essential for learning and remembering command options.
+ssh: Secure Shell for logging into and executing commands on remote machines. Crucial for remote system administration.
+tar, gzip, gunzip: File compression and archive utilities. tar is for creating or extracting archives, while gzip compresses files, and gunzip decompresses them.
+vi or nano: Text editors (vi/vim or nano) for editing files directly in the terminal. Knowing basic operations in at least one terminal-based editor can be very helpful.
+wget or curl: Command-line utilities for downloading files from the web. curl is also commonly used for testing and interacting with web services.
+sudo: Execute a command as another user, typically the superuser. Fundamental for executing privileged operations.
+df and du: Disk usage statistics. df displays free disk space, while du shows the disk usage of files and directories.
+ps, top, htop: Process management commands. ps displays current processes. top provides a dynamic real-time view of running processes. htop is an enhanced version of top.
+awk and sed: Text processing commands. awk is powerful for data extraction and reporting, while sed is a stream editor for filtering and transforming text.
