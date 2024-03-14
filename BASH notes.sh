@@ -201,4 +201,4 @@ fi
 #       '!=' not equal 
 
 # When comparing strings, put variables into quotes 
-#       if [ "$foo" == "$bar" ]
+#       if [ "$foo" == "$bar" ] 
