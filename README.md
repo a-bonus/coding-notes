@@ -1,2 +1,2 @@
-# bash notes
- my bash notes 
+# Coding notes
+ my coding notes
